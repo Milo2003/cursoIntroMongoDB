@@ -79,3 +79,5 @@ $RECYCLE.BIN/
 
 ### dotenv ###
 .env
+
+mongo_data/
