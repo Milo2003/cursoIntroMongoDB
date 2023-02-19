@@ -1,0 +1,9 @@
+use("platzi_store")
+
+// db.inventory.find({qty: { $eq: 20 } })
+
+// db.inventory.find({ qty: 20 })
+
+// db.inventory.find({ qty: { $ne: 20 } })
+
+db.inventory.find({ "item.code": { $ne: "123" }})

@@ -1,0 +1,9 @@
+use("sample_training")
+
+// db.trips.find({"start station location.type": "Point" })
+
+db.companies.find({
+  "relationships.0.person.first_name": "Mark"
+  },
+  { "relationships.person": 1, name:1, _id:0, "relationships.title": 1 }
+)
